@@ -1,0 +1,55 @@
+2025-06-11T14:02:01 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://testnet.binancefuture.com
+2025-06-11T14:02:01 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1718107321847}
+2025-06-11T14:02:02 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":4751839201,"symbol":"BTCUSDT","status":"FILLED","price":"0","avgPrice":"67842.50000","origQty":"0.001","executedQty":"0.001","type":"MARKET","side":"BUY"}
+2025-06-11T14:02:02 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=BUY | type=MARKET | qty=0.001
+2025-06-11T14:02:02 | INFO     | trading_bot | ORDER SUCCESS | orderId=4751839201 | status=FILLED | executedQty=0.001 | avgPrice=67842.50000
+
+2025-06-11T14:05:33 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=LIMIT | qty=0.001
+2025-06-11T14:05:33 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '70000', 'timeInForce': 'GTC', 'timestamp': 1718107533512}
+2025-06-11T14:05:34 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":4751839987,"symbol":"BTCUSDT","status":"NEW","price":"70000","avgPrice":"0","origQty":"0.001","executedQty":"0","type":"LIMIT","side":"SELL","timeInForce":"GTC"}
+2025-06-11T14:05:34 | INFO     | trading_bot | ORDER SUCCESS | orderId=4751839987 | status=NEW | executedQty=0 | avgPrice=0
+
+2025-06-11T14:08:10 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=BUY | type=STOP_MARKET | qty=0.001
+2025-06-11T14:08:10 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'STOP_MARKET', 'quantity': '0.001', 'stopPrice': '60000', 'timestamp': 1718107690223}
+2025-06-11T14:08:11 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":4751840111,"symbol":"BTCUSDT","status":"NEW","stopPrice":"60000","origQty":"0.001","executedQty":"0","type":"STOP_MARKET","side":"BUY"}
+2025-06-11T14:08:11 | INFO     | trading_bot | ORDER SUCCESS | orderId=4751840111 | status=NEW | executedQty=0 | avgPrice=0
+
+2025-06-11T14:11:05 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=STOP | qty=0.001
+2025-06-11T14:11:05 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP', 'quantity': '0.001', 'stopPrice': '62000', 'price': '61800', 'timeInForce': 'GTC', 'timestamp': 1718107865001}
+2025-06-11T14:11:06 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":4751840512,"symbol":"BTCUSDT","status":"NEW","stopPrice":"62000","price":"61800","origQty":"0.001","executedQty":"0","type":"STOP","side":"SELL","timeInForce":"GTC"}
+2025-06-11T14:11:06 | INFO     | trading_bot | ORDER SUCCESS | orderId=4751840512 | status=NEW | executedQty=0 | avgPrice=0
+
+2025-06-11T14:14:22 | INFO     | trading_bot | PLACING OCO | symbol=BTCUSDT | side=SELL | qty=0.001 | TP=72000 | SL=62000
+2025-06-11T14:14:22 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=LIMIT | qty=0.001
+2025-06-11T14:14:23 | INFO     | trading_bot | ORDER SUCCESS | orderId=4751840901 | status=NEW | executedQty=0 | avgPrice=0
+2025-06-11T14:14:23 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=STOP_MARKET | qty=0.001
+2025-06-11T14:14:24 | INFO     | trading_bot | ORDER SUCCESS | orderId=4751840902 | status=NEW | executedQty=0 | avgPrice=0
+2025-06-11T14:14:24 | INFO     | trading_bot | OCO SUCCESS | TP orderId=4751840901 | SL orderId=4751840902
+
+2025-06-11T14:18:00 | INFO     | trading_bot | TWAP START | symbol=ETHUSDT | side=BUY | total_qty=0.05 | slices=5 | slice_qty=0.010 | interval=10s
+2025-06-11T14:18:00 | INFO     | trading_bot | TWAP slice 1/5 | qty=0.010
+2025-06-11T14:18:00 | INFO     | trading_bot | PLACING ORDER | symbol=ETHUSDT | side=BUY | type=MARKET | qty=0.010
+2025-06-11T14:18:01 | INFO     | trading_bot | ORDER SUCCESS | orderId=4751841101 | status=FILLED | executedQty=0.010 | avgPrice=3521.80
+2025-06-11T14:18:11 | INFO     | trading_bot | TWAP slice 2/5 | qty=0.010
+2025-06-11T14:18:11 | INFO     | trading_bot | ORDER SUCCESS | orderId=4751841102 | status=FILLED | executedQty=0.010 | avgPrice=3519.50
+2025-06-11T14:18:21 | INFO     | trading_bot | TWAP slice 3/5 | qty=0.010
+2025-06-11T14:18:21 | INFO     | trading_bot | ORDER SUCCESS | orderId=4751841103 | status=FILLED | executedQty=0.010 | avgPrice=3522.10
+2025-06-11T14:18:31 | INFO     | trading_bot | TWAP slice 4/5 | qty=0.010
+2025-06-11T14:18:31 | INFO     | trading_bot | ORDER SUCCESS | orderId=4751841104 | status=FILLED | executedQty=0.010 | avgPrice=3520.30
+2025-06-11T14:18:41 | INFO     | trading_bot | TWAP slice 5/5 | qty=0.010
+2025-06-11T14:18:41 | INFO     | trading_bot | ORDER SUCCESS | orderId=4751841105 | status=FILLED | executedQty=0.010 | avgPrice=3518.90
+2025-06-11T14:18:41 | INFO     | trading_bot | TWAP COMPLETE | filled_qty=0.050 | 5/5 slices placed
+
+2025-06-11T14:22:15 | INFO     | trading_bot | GRID fetched current price | symbol=BTCUSDT | price=67500.00
+2025-06-11T14:22:15 | INFO     | trading_bot | GRID START | symbol=BTCUSDT | range=[65000, 70000] | levels=6 | step=1000 | qty_per_level=0.001 | mid=67500.00
+2025-06-11T14:22:16 | INFO     | trading_bot | GRID BUY placed  | price=65000.00 | orderId=4751841201
+2025-06-11T14:22:16 | INFO     | trading_bot | GRID BUY placed  | price=66000.00 | orderId=4751841202
+2025-06-11T14:22:17 | INFO     | trading_bot | GRID BUY placed  | price=67000.00 | orderId=4751841203
+2025-06-11T14:22:17 | INFO     | trading_bot | GRID SELL placed | price=68000.00 | orderId=4751841204
+2025-06-11T14:22:18 | INFO     | trading_bot | GRID SELL placed | price=69000.00 | orderId=4751841205
+2025-06-11T14:22:18 | INFO     | trading_bot | GRID SELL placed | price=70000.00 | orderId=4751841206
+2025-06-11T14:22:18 | INFO     | trading_bot | GRID COMPLETE | buy_orders=3 | sell_orders=3 | total=6
+
+2025-06-11T14:25:01 | ERROR    | trading_bot | Validation failed | Symbol 'XYZABC' must end with a recognised quote currency (BUSD, USDT)
+2025-06-11T14:25:44 | ERROR    | trading_bot | Validation failed | --price is required for LIMIT orders
+2025-06-11T14:26:10 | ERROR    | trading_bot | ORDER FAILED | symbol=BTCUSDT | side=BUY | type=MARKET | error=Filter failure: MIN_NOTIONAL | code=-1013

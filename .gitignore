@@ -3,7 +3,7 @@
 *.env
 
 # Logs (keep sample logs, ignore real ones)
-logs/*.log
+#logs/*.log
 
 # Python
 __pycache__/

@@ -1,0 +1,508 @@
+2026-06-12T12:01:13 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T12:01:13 | DEBUG    | trading_bot | REQUEST  GET /fapi/v1/ping | params={}
+2026-06-12T12:01:15 | DEBUG    | trading_bot | RESPONSE GET /fapi/v1/ping | status=200 | body={}
+2026-06-12T12:01:32 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T12:01:32 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=BUY | type=MARKET | qty=0.001
+2026-06-12T12:01:32 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1781245892405}
+2026-06-12T12:01:33 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-1021,"msg":"Timestamp for this request was 1000ms ahead of the server's time."}
+2026-06-12T12:01:33 | ERROR    | trading_bot | API ERROR | http=400 | code=-1021 | msg=Timestamp for this request was 1000ms ahead of the server's time.
+2026-06-12T12:01:33 | ERROR    | trading_bot | ORDER FAILED | symbol=BTCUSDT | side=BUY | type=MARKET | error=Timestamp for this request was 1000ms ahead of the server's time. | code=-1021
+2026-06-12T12:05:43 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T12:05:43 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=BUY | type=MARKET | qty=0.001
+2026-06-12T12:05:43 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1781246143221, 'recvWindow': 10000}
+2026-06-12T12:05:44 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-1021,"msg":"Timestamp for this request was 1000ms ahead of the server's time."}
+2026-06-12T12:05:44 | ERROR    | trading_bot | API ERROR | http=400 | code=-1021 | msg=Timestamp for this request was 1000ms ahead of the server's time.
+2026-06-12T12:05:44 | ERROR    | trading_bot | ORDER FAILED | symbol=BTCUSDT | side=BUY | type=MARKET | error=Timestamp for this request was 1000ms ahead of the server's time. | code=-1021
+2026-06-12T12:09:02 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T12:09:02 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=BUY | type=MARKET | qty=0.001
+2026-06-12T12:09:02 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1781246342774, 'recvWindow': 10000}
+2026-06-12T12:09:03 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-1021,"msg":"Timestamp for this request was 1000ms ahead of the server's time."}
+2026-06-12T12:09:03 | ERROR    | trading_bot | API ERROR | http=400 | code=-1021 | msg=Timestamp for this request was 1000ms ahead of the server's time.
+2026-06-12T12:09:03 | ERROR    | trading_bot | ORDER FAILED | symbol=BTCUSDT | side=BUY | type=MARKET | error=Timestamp for this request was 1000ms ahead of the server's time. | code=-1021
+2026-06-12T12:00:29 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T12:00:29 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=BUY | type=MARKET | qty=0.001
+2026-06-12T12:00:29 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1781245829070, 'recvWindow': 10000}
+2026-06-12T12:00:30 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":15001437731,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"oRxK35mXUR7vngN4ZNdQUy","price":"0.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781245830172}
+2026-06-12T12:00:30 | INFO     | trading_bot | ORDER SUCCESS | orderId=15001437731 | status=NEW | executedQty=0.0000 | avgPrice=—
+2026-06-12T12:06:58 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T12:06:58 | DEBUG    | trading_bot | REQUEST  GET /fapi/v1/ping | params={}
+2026-06-12T12:06:59 | DEBUG    | trading_bot | RESPONSE GET /fapi/v1/ping | status=200 | body={}
+2026-06-12T12:22:25 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T12:22:25 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=BUY | type=MARKET | qty=0.001
+2026-06-12T12:22:25 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1781247145923, 'recvWindow': 10000}
+2026-06-12T12:22:27 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":15002607700,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"6W7MI0lpBKLyrJQRStSdlX","price":"0.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781247147019}
+2026-06-12T12:22:27 | INFO     | trading_bot | ORDER SUCCESS | orderId=15002607700 | status=NEW | executedQty=0.0000 | avgPrice=—
+2026-06-12T12:22:51 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T12:22:51 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=LIMIT | qty=0.001
+2026-06-12T12:22:51 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '95000.0', 'timeInForce': 'GTC', 'timestamp': 1781247171763, 'recvWindow': 10000}
+2026-06-12T12:22:52 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":15002631449,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"yt6NWpxjlYaVXEJeUyde6J","price":"95000.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781247172728}
+2026-06-12T12:22:52 | INFO     | trading_bot | ORDER SUCCESS | orderId=15002631449 | status=NEW | executedQty=0.0000 | avgPrice=—
+2026-06-12T12:23:23 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T12:23:23 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=BUY | type=STOP_MARKET | qty=0.001
+2026-06-12T12:23:23 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'STOP_MARKET', 'quantity': '0.001', 'stopPrice': '60000.0', 'timestamp': 1781247203810, 'recvWindow': 10000}
+2026-06-12T12:23:24 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4120,"msg":"Order type not supported for this endpoint. Please use the Algo Order API endpoints instead."}
+2026-06-12T12:23:24 | ERROR    | trading_bot | API ERROR | http=400 | code=-4120 | msg=Order type not supported for this endpoint. Please use the Algo Order API endpoints instead.
+2026-06-12T12:23:24 | ERROR    | trading_bot | ORDER FAILED | symbol=BTCUSDT | side=BUY | type=STOP_MARKET | error=Order type not supported for this endpoint. Please use the Algo Order API endpoints instead. | code=-4120
+2026-06-12T12:23:46 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T12:23:46 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=STOP | qty=0.001
+2026-06-12T12:23:46 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP', 'quantity': '0.001', 'stopPrice': '62000.0', 'price': '61800.0', 'timeInForce': 'GTC', 'timestamp': 1781247226495, 'recvWindow': 10000}
+2026-06-12T12:23:47 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4120,"msg":"Order type not supported for this endpoint. Please use the Algo Order API endpoints instead."}
+2026-06-12T12:23:47 | ERROR    | trading_bot | API ERROR | http=400 | code=-4120 | msg=Order type not supported for this endpoint. Please use the Algo Order API endpoints instead.
+2026-06-12T12:23:47 | ERROR    | trading_bot | ORDER FAILED | symbol=BTCUSDT | side=SELL | type=STOP | error=Order type not supported for this endpoint. Please use the Algo Order API endpoints instead. | code=-4120
+2026-06-12T12:24:03 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T12:24:03 | INFO     | trading_bot | PLACING OCO | symbol=BTCUSDT | side=SELL | qty=0.001 | TP=72000.0 | SL=62000.0
+2026-06-12T12:24:03 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=LIMIT | qty=0.001
+2026-06-12T12:24:03 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '72000.0', 'timeInForce': 'GTC', 'timestamp': 1781247243425, 'recvWindow': 10000}
+2026-06-12T12:24:04 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":15002716329,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"JVYS0TxH2VbIKVe7Nf2rdm","price":"72000.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781247244490}
+2026-06-12T12:24:04 | INFO     | trading_bot | ORDER SUCCESS | orderId=15002716329 | status=NEW | executedQty=0.0000 | avgPrice=—
+2026-06-12T12:24:04 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=STOP_MARKET | qty=0.001
+2026-06-12T12:24:04 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP_MARKET', 'quantity': '0.001', 'stopPrice': '62000.0', 'timestamp': 1781247244526, 'recvWindow': 10000}
+2026-06-12T12:24:04 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4120,"msg":"Order type not supported for this endpoint. Please use the Algo Order API endpoints instead."}
+2026-06-12T12:24:04 | ERROR    | trading_bot | API ERROR | http=400 | code=-4120 | msg=Order type not supported for this endpoint. Please use the Algo Order API endpoints instead.
+2026-06-12T12:24:04 | ERROR    | trading_bot | ORDER FAILED | symbol=BTCUSDT | side=SELL | type=STOP_MARKET | error=Order type not supported for this endpoint. Please use the Algo Order API endpoints instead. | code=-4120
+2026-06-12T12:24:04 | ERROR    | trading_bot | OCO stop-loss leg failed after take-profit was placed | TP orderId=15002716329 | SL error=Order type not supported for this endpoint. Please use the Algo Order API endpoints instead.
+2026-06-12T12:24:21 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T12:24:21 | INFO     | trading_bot | TWAP START | symbol=ETHUSDT | side=BUY | total_qty=0.01 | slices=3 | slice_qty=0.003 | interval=5s
+2026-06-12T12:24:21 | INFO     | trading_bot | TWAP slice 1/3 | qty=0.003
+2026-06-12T12:24:21 | INFO     | trading_bot | PLACING ORDER | symbol=ETHUSDT | side=BUY | type=MARKET | qty=0.003
+2026-06-12T12:24:21 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.003', 'timestamp': 1781247261118, 'recvWindow': 10000}
+2026-06-12T12:24:22 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4164,"msg":"Order's notional must be no smaller than 20 (unless you choose reduce only)."}
+2026-06-12T12:24:22 | ERROR    | trading_bot | API ERROR | http=400 | code=-4164 | msg=Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T12:24:22 | ERROR    | trading_bot | ORDER FAILED | symbol=ETHUSDT | side=BUY | type=MARKET | error=Order's notional must be no smaller than 20 (unless you choose reduce only). | code=-4164
+2026-06-12T12:24:22 | ERROR    | trading_bot | TWAP slice 1 failed | Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T12:24:22 | DEBUG    | trading_bot | TWAP sleeping 5s before next slice
+2026-06-12T12:24:27 | INFO     | trading_bot | TWAP slice 2/3 | qty=0.003
+2026-06-12T12:24:27 | INFO     | trading_bot | PLACING ORDER | symbol=ETHUSDT | side=BUY | type=MARKET | qty=0.003
+2026-06-12T12:24:27 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.003', 'timestamp': 1781247267141, 'recvWindow': 10000}
+2026-06-12T12:24:27 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4164,"msg":"Order's notional must be no smaller than 20 (unless you choose reduce only)."}
+2026-06-12T12:24:27 | ERROR    | trading_bot | API ERROR | http=400 | code=-4164 | msg=Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T12:24:27 | ERROR    | trading_bot | ORDER FAILED | symbol=ETHUSDT | side=BUY | type=MARKET | error=Order's notional must be no smaller than 20 (unless you choose reduce only). | code=-4164
+2026-06-12T12:24:27 | ERROR    | trading_bot | TWAP slice 2 failed | Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T12:24:27 | DEBUG    | trading_bot | TWAP sleeping 5s before next slice
+2026-06-12T12:24:32 | INFO     | trading_bot | TWAP slice 3/3 | qty=0.004
+2026-06-12T12:24:32 | INFO     | trading_bot | PLACING ORDER | symbol=ETHUSDT | side=BUY | type=MARKET | qty=0.004
+2026-06-12T12:24:32 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.004', 'timestamp': 1781247272326, 'recvWindow': 10000}
+2026-06-12T12:24:32 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4164,"msg":"Order's notional must be no smaller than 20 (unless you choose reduce only)."}
+2026-06-12T12:24:32 | ERROR    | trading_bot | API ERROR | http=400 | code=-4164 | msg=Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T12:24:32 | ERROR    | trading_bot | ORDER FAILED | symbol=ETHUSDT | side=BUY | type=MARKET | error=Order's notional must be no smaller than 20 (unless you choose reduce only). | code=-4164
+2026-06-12T12:24:32 | ERROR    | trading_bot | TWAP slice 3 failed | Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T12:24:32 | INFO     | trading_bot | TWAP COMPLETE | filled_qty=0 | 0/3 slices placed (3 failed)
+2026-06-12T12:25:01 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T12:25:01 | DEBUG    | trading_bot | REQUEST  GET /fapi/v1/ticker/price | params={'symbol': 'BTCUSDT'}
+2026-06-12T12:25:02 | DEBUG    | trading_bot | RESPONSE GET /fapi/v1/ticker/price | status=200 | body={"price":"62936.70","symbol":"BTCUSDT","time":1781247301418}
+2026-06-12T12:25:02 | INFO     | trading_bot | GRID fetched current price | symbol=BTCUSDT | price=62936.70
+2026-06-12T12:25:02 | INFO     | trading_bot | GRID START | symbol=BTCUSDT | range=[60000.0, 70000.0] | levels=4 | step=3333.333333333333333333333333 | qty_per_level=0.001 | mid=62936.70
+2026-06-12T12:25:02 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=BUY | type=LIMIT | qty=0.001
+2026-06-12T12:25:02 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': '0.001', 'price': '60000.00', 'timeInForce': 'GTC', 'timestamp': 1781247302610, 'recvWindow': 10000}
+2026-06-12T12:25:03 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":15002758851,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"FAIOgycYK5BEzBctlziRxg","price":"60000.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781247302911}
+2026-06-12T12:25:03 | INFO     | trading_bot | ORDER SUCCESS | orderId=15002758851 | status=NEW | executedQty=0.0000 | avgPrice=—
+2026-06-12T12:25:03 | INFO     | trading_bot | GRID BUY placed | price=60000.00 | orderId=15002758851
+2026-06-12T12:25:03 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=LIMIT | qty=0.001
+2026-06-12T12:25:03 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '63333.33', 'timeInForce': 'GTC', 'timestamp': 1781247303021, 'recvWindow': 10000}
+2026-06-12T12:25:03 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4014,"msg":"Price not increased by tick size."}
+2026-06-12T12:25:03 | ERROR    | trading_bot | API ERROR | http=400 | code=-4014 | msg=Price not increased by tick size.
+2026-06-12T12:25:03 | ERROR    | trading_bot | ORDER FAILED | symbol=BTCUSDT | side=SELL | type=LIMIT | error=Price not increased by tick size. | code=-4014
+2026-06-12T12:25:03 | ERROR    | trading_bot | GRID SELL failed | price=63333.33 | Price not increased by tick size.
+2026-06-12T12:25:03 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=LIMIT | qty=0.001
+2026-06-12T12:25:03 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '66666.67', 'timeInForce': 'GTC', 'timestamp': 1781247303171, 'recvWindow': 10000}
+2026-06-12T12:25:03 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4014,"msg":"Price not increased by tick size."}
+2026-06-12T12:25:03 | ERROR    | trading_bot | API ERROR | http=400 | code=-4014 | msg=Price not increased by tick size.
+2026-06-12T12:25:03 | ERROR    | trading_bot | ORDER FAILED | symbol=BTCUSDT | side=SELL | type=LIMIT | error=Price not increased by tick size. | code=-4014
+2026-06-12T12:25:03 | ERROR    | trading_bot | GRID SELL failed | price=66666.67 | Price not increased by tick size.
+2026-06-12T12:25:03 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=LIMIT | qty=0.001
+2026-06-12T12:25:03 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '70000.00', 'timeInForce': 'GTC', 'timestamp': 1781247303333, 'recvWindow': 10000}
+2026-06-12T12:25:03 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":15002759373,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"60ftsaemg4gMgnkpGOuTrx","price":"70000.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781247303447}
+2026-06-12T12:25:03 | INFO     | trading_bot | ORDER SUCCESS | orderId=15002759373 | status=NEW | executedQty=0.0000 | avgPrice=—
+2026-06-12T12:25:03 | INFO     | trading_bot | GRID SELL placed | price=70000.00 | orderId=15002759373
+2026-06-12T12:25:03 | INFO     | trading_bot | GRID COMPLETE | buy_orders=1 | sell_orders=1 | total=2
+2026-06-12T13:16:07 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T13:16:07 | DEBUG    | trading_bot | REQUEST  GET /fapi/v1/ticker/price | params={'symbol': 'BTCUSDT'}
+2026-06-12T13:16:08 | DEBUG    | trading_bot | RESPONSE GET /fapi/v1/ticker/price | status=200 | body={"price":"63053.90","symbol":"BTCUSDT","time":1781250365374}
+2026-06-12T13:16:08 | INFO     | trading_bot | GRID fetched current price | symbol=BTCUSDT | price=63053.90
+2026-06-12T13:16:08 | INFO     | trading_bot | GRID START | symbol=BTCUSDT | range=[60000.0, 70000.0] | levels=4 | step=3333.333333333333333333333333 | qty_per_level=0.001 | mid=63053.90
+2026-06-12T13:16:08 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=BUY | type=LIMIT | qty=0.001
+2026-06-12T13:16:08 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': '0.001', 'price': '60000.00', 'timeInForce': 'GTC', 'timestamp': 1781250368470, 'recvWindow': 10000}
+2026-06-12T13:16:08 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":15005535183,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"qK3qFPyPy2AWGw9RUgqO9I","price":"60000.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781250368607}
+2026-06-12T13:16:08 | INFO     | trading_bot | ORDER SUCCESS | orderId=15005535183 | status=NEW | executedQty=0.0000 | avgPrice=—
+2026-06-12T13:16:08 | INFO     | trading_bot | GRID BUY placed | price=60000.00 | orderId=15005535183
+2026-06-12T13:16:08 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=LIMIT | qty=0.001
+2026-06-12T13:16:08 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '63333.33', 'timeInForce': 'GTC', 'timestamp': 1781250368652, 'recvWindow': 10000}
+2026-06-12T13:16:08 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4014,"msg":"Price not increased by tick size."}
+2026-06-12T13:16:08 | ERROR    | trading_bot | API ERROR | http=400 | code=-4014 | msg=Price not increased by tick size.
+2026-06-12T13:16:08 | ERROR    | trading_bot | ORDER FAILED | symbol=BTCUSDT | side=SELL | type=LIMIT | error=Price not increased by tick size. | code=-4014
+2026-06-12T13:16:08 | ERROR    | trading_bot | GRID SELL failed | price=63333.33 | Price not increased by tick size.
+2026-06-12T13:16:08 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=LIMIT | qty=0.001
+2026-06-12T13:16:08 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '66666.67', 'timeInForce': 'GTC', 'timestamp': 1781250368813, 'recvWindow': 10000}
+2026-06-12T13:16:09 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4014,"msg":"Price not increased by tick size."}
+2026-06-12T13:16:09 | ERROR    | trading_bot | API ERROR | http=400 | code=-4014 | msg=Price not increased by tick size.
+2026-06-12T13:16:09 | ERROR    | trading_bot | ORDER FAILED | symbol=BTCUSDT | side=SELL | type=LIMIT | error=Price not increased by tick size. | code=-4014
+2026-06-12T13:16:09 | ERROR    | trading_bot | GRID SELL failed | price=66666.67 | Price not increased by tick size.
+2026-06-12T13:16:09 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=LIMIT | qty=0.001
+2026-06-12T13:16:09 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '70000.00', 'timeInForce': 'GTC', 'timestamp': 1781250369185, 'recvWindow': 10000}
+2026-06-12T13:16:09 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":15005535735,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"rrBLj8mA6o1VWZbhjylufd","price":"70000.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781250369308}
+2026-06-12T13:16:09 | INFO     | trading_bot | ORDER SUCCESS | orderId=15005535735 | status=NEW | executedQty=0.0000 | avgPrice=—
+2026-06-12T13:16:09 | INFO     | trading_bot | GRID SELL placed | price=70000.00 | orderId=15005535735
+2026-06-12T13:16:09 | INFO     | trading_bot | GRID COMPLETE | buy_orders=1 | sell_orders=1 | total=2
+2026-06-12T13:19:01 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T13:19:01 | DEBUG    | trading_bot | REQUEST  GET /fapi/v1/ticker/price | params={'symbol': 'BTCUSDT'}
+2026-06-12T13:19:02 | DEBUG    | trading_bot | RESPONSE GET /fapi/v1/ticker/price | status=200 | body={"price":"62999.20","symbol":"BTCUSDT","time":1781250537487}
+2026-06-12T13:19:02 | INFO     | trading_bot | GRID fetched current price | symbol=BTCUSDT | price=62999.20
+2026-06-12T13:19:02 | INFO     | trading_bot | GRID START | symbol=BTCUSDT | range=[60000.0, 70000.0] | levels=4 | step=3333.333333333333333333333333 | qty_per_level=0.001 | mid=62999.20
+2026-06-12T13:19:02 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=BUY | type=LIMIT | qty=0.001
+2026-06-12T13:19:02 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': '0.001', 'price': '60000.00', 'timeInForce': 'GTC', 'timestamp': 1781250542725, 'recvWindow': 10000}
+2026-06-12T13:19:02 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":15005700369,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"o6QFCEBEGn6wULSgKrmBNV","price":"60000.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781250542856}
+2026-06-12T13:19:02 | INFO     | trading_bot | ORDER SUCCESS | orderId=15005700369 | status=NEW | executedQty=0.0000 | avgPrice=—
+2026-06-12T13:19:02 | INFO     | trading_bot | GRID BUY placed | price=60000.00 | orderId=15005700369
+2026-06-12T13:19:02 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=LIMIT | qty=0.001
+2026-06-12T13:19:02 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '63333.33', 'timeInForce': 'GTC', 'timestamp': 1781250542879, 'recvWindow': 10000}
+2026-06-12T13:19:03 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4014,"msg":"Price not increased by tick size."}
+2026-06-12T13:19:03 | ERROR    | trading_bot | API ERROR | http=400 | code=-4014 | msg=Price not increased by tick size.
+2026-06-12T13:19:03 | ERROR    | trading_bot | ORDER FAILED | symbol=BTCUSDT | side=SELL | type=LIMIT | error=Price not increased by tick size. | code=-4014
+2026-06-12T13:19:03 | ERROR    | trading_bot | GRID SELL failed | price=63333.33 | Price not increased by tick size.
+2026-06-12T13:19:03 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=LIMIT | qty=0.001
+2026-06-12T13:19:03 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '66666.67', 'timeInForce': 'GTC', 'timestamp': 1781250543028, 'recvWindow': 10000}
+2026-06-12T13:19:03 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4014,"msg":"Price not increased by tick size."}
+2026-06-12T13:19:03 | ERROR    | trading_bot | API ERROR | http=400 | code=-4014 | msg=Price not increased by tick size.
+2026-06-12T13:19:03 | ERROR    | trading_bot | ORDER FAILED | symbol=BTCUSDT | side=SELL | type=LIMIT | error=Price not increased by tick size. | code=-4014
+2026-06-12T13:19:03 | ERROR    | trading_bot | GRID SELL failed | price=66666.67 | Price not increased by tick size.
+2026-06-12T13:19:03 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=LIMIT | qty=0.001
+2026-06-12T13:19:03 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '70000.00', 'timeInForce': 'GTC', 'timestamp': 1781250543409, 'recvWindow': 10000}
+2026-06-12T13:19:03 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":15005700720,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"f6t3bBYApyFMlCvyGBHX6d","price":"70000.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781250543537}
+2026-06-12T13:19:03 | INFO     | trading_bot | ORDER SUCCESS | orderId=15005700720 | status=NEW | executedQty=0.0000 | avgPrice=—
+2026-06-12T13:19:03 | INFO     | trading_bot | GRID SELL placed | price=70000.00 | orderId=15005700720
+2026-06-12T13:19:03 | INFO     | trading_bot | GRID COMPLETE | buy_orders=1 | sell_orders=1 | total=2
+2026-06-12T13:44:43 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T13:44:43 | DEBUG    | trading_bot | REQUEST  GET /fapi/v1/ping | params={}
+2026-06-12T13:44:44 | DEBUG    | trading_bot | RESPONSE GET /fapi/v1/ping | status=200 | body={}
+2026-06-12T13:45:14 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T13:45:14 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=BUY | type=MARKET | qty=0.001
+2026-06-12T13:45:14 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1781252114081, 'recvWindow': 10000}
+2026-06-12T13:45:15 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":15007101198,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"xq5AOvHH5wIItlwKNbXDsA","price":"0.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781252115050}
+2026-06-12T13:45:15 | INFO     | trading_bot | ORDER SUCCESS | orderId=15007101198 | status=NEW | executedQty=0.0000 | avgPrice=—
+2026-06-12T13:45:26 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T13:45:26 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=LIMIT | qty=0.001
+2026-06-12T13:45:26 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '95000.0', 'timeInForce': 'GTC', 'timestamp': 1781252126275, 'recvWindow': 10000}
+2026-06-12T13:45:27 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":15007110350,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"KmTbFuyz078lOEX2QaVKb1","price":"95000.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781252127350}
+2026-06-12T13:45:27 | INFO     | trading_bot | ORDER SUCCESS | orderId=15007110350 | status=NEW | executedQty=0.0000 | avgPrice=—
+2026-06-12T13:48:31 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T13:48:31 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=BUY | type=STOP_MARKET | qty=0.001
+2026-06-12T13:48:31 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'STOP_MARKET', 'quantity': '0.001', 'stopPrice': '60000.0', 'timestamp': 1781252311484, 'recvWindow': 10000}
+2026-06-12T13:48:32 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4120,"msg":"Order type not supported for this endpoint. Please use the Algo Order API endpoints instead."}
+2026-06-12T13:48:32 | ERROR    | trading_bot | API ERROR | http=400 | code=-4120 | msg=Order type not supported for this endpoint. Please use the Algo Order API endpoints instead.
+2026-06-12T13:48:32 | ERROR    | trading_bot | ORDER FAILED | symbol=BTCUSDT | side=BUY | type=STOP_MARKET | error=Order type not supported for this endpoint. Please use the Algo Order API endpoints instead. | code=-4120
+2026-06-12T13:51:59 | ERROR    | trading_bot | Validation failed | Order type must be one of: GRID, LIMIT, MARKET, OCO, STOP_LIMIT, STOP_MARKET, TWAP. Got: 'STOP'
+2026-06-12T13:53:51 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T13:53:51 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=STOP | qty=0.001
+2026-06-12T13:53:51 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP', 'quantity': '0.001', 'stopPrice': '85000.0', 'price': '84900.0', 'timeInForce': 'GTC', 'timestamp': 1781252631852, 'recvWindow': 10000}
+2026-06-12T13:53:52 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4120,"msg":"Order type not supported for this endpoint. Please use the Algo Order API endpoints instead."}
+2026-06-12T13:53:52 | ERROR    | trading_bot | API ERROR | http=400 | code=-4120 | msg=Order type not supported for this endpoint. Please use the Algo Order API endpoints instead.
+2026-06-12T13:53:52 | ERROR    | trading_bot | ORDER FAILED | symbol=BTCUSDT | side=SELL | type=STOP | error=Order type not supported for this endpoint. Please use the Algo Order API endpoints instead. | code=-4120
+2026-06-12T13:59:15 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T13:59:15 | INFO     | trading_bot | PLACING OCO | symbol=BTCUSDT | side=SELL | qty=0.001 | TP=72000.0 | SL=62000.0
+2026-06-12T13:59:15 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=LIMIT | qty=0.001
+2026-06-12T13:59:15 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '72000.0', 'timeInForce': 'GTC', 'timestamp': 1781252955152, 'recvWindow': 10000}
+2026-06-12T13:59:16 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":15007807228,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"GbqHdFoc5jqr5PZAclHoXJ","price":"72000.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781252956087}
+2026-06-12T13:59:16 | INFO     | trading_bot | ORDER SUCCESS | orderId=15007807228 | status=NEW | executedQty=0.0000 | avgPrice=—
+2026-06-12T13:59:16 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=STOP_MARKET | qty=0.001
+2026-06-12T13:59:16 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP_MARKET', 'quantity': '0.001', 'stopPrice': '62000.0', 'timestamp': 1781252956067, 'recvWindow': 10000}
+2026-06-12T13:59:16 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4120,"msg":"Order type not supported for this endpoint. Please use the Algo Order API endpoints instead."}
+2026-06-12T13:59:16 | ERROR    | trading_bot | API ERROR | http=400 | code=-4120 | msg=Order type not supported for this endpoint. Please use the Algo Order API endpoints instead.
+2026-06-12T13:59:16 | ERROR    | trading_bot | ORDER FAILED | symbol=BTCUSDT | side=SELL | type=STOP_MARKET | error=Order type not supported for this endpoint. Please use the Algo Order API endpoints instead. | code=-4120
+2026-06-12T13:59:16 | ERROR    | trading_bot | OCO stop-loss leg failed after take-profit was placed | TP orderId=15007807228 | SL error=Order type not supported for this endpoint. Please use the Algo Order API endpoints instead.
+2026-06-12T14:00:38 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T14:00:38 | INFO     | trading_bot | TWAP START | symbol=ETHUSDT | side=BUY | total_qty=0.01 | slices=5 | slice_qty=0.002 | interval=10s
+2026-06-12T14:00:38 | INFO     | trading_bot | TWAP slice 1/5 | qty=0.002
+2026-06-12T14:00:38 | INFO     | trading_bot | PLACING ORDER | symbol=ETHUSDT | side=BUY | type=MARKET | qty=0.002
+2026-06-12T14:00:38 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.002', 'timestamp': 1781253038307, 'recvWindow': 10000}
+2026-06-12T14:00:39 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4164,"msg":"Order's notional must be no smaller than 20 (unless you choose reduce only)."}
+2026-06-12T14:00:39 | ERROR    | trading_bot | API ERROR | http=400 | code=-4164 | msg=Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:00:39 | ERROR    | trading_bot | ORDER FAILED | symbol=ETHUSDT | side=BUY | type=MARKET | error=Order's notional must be no smaller than 20 (unless you choose reduce only). | code=-4164
+2026-06-12T14:00:39 | ERROR    | trading_bot | TWAP slice 1 failed | Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:00:39 | DEBUG    | trading_bot | TWAP sleeping 10s before next slice
+2026-06-12T14:00:49 | INFO     | trading_bot | TWAP slice 2/5 | qty=0.002
+2026-06-12T14:00:49 | INFO     | trading_bot | PLACING ORDER | symbol=ETHUSDT | side=BUY | type=MARKET | qty=0.002
+2026-06-12T14:00:49 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.002', 'timestamp': 1781253049248, 'recvWindow': 10000}
+2026-06-12T14:00:49 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4164,"msg":"Order's notional must be no smaller than 20 (unless you choose reduce only)."}
+2026-06-12T14:00:49 | ERROR    | trading_bot | API ERROR | http=400 | code=-4164 | msg=Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:00:49 | ERROR    | trading_bot | ORDER FAILED | symbol=ETHUSDT | side=BUY | type=MARKET | error=Order's notional must be no smaller than 20 (unless you choose reduce only). | code=-4164
+2026-06-12T14:00:49 | ERROR    | trading_bot | TWAP slice 2 failed | Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:00:49 | DEBUG    | trading_bot | TWAP sleeping 10s before next slice
+2026-06-12T14:00:59 | INFO     | trading_bot | TWAP slice 3/5 | qty=0.002
+2026-06-12T14:00:59 | INFO     | trading_bot | PLACING ORDER | symbol=ETHUSDT | side=BUY | type=MARKET | qty=0.002
+2026-06-12T14:00:59 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.002', 'timestamp': 1781253059613, 'recvWindow': 10000}
+2026-06-12T14:00:59 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4164,"msg":"Order's notional must be no smaller than 20 (unless you choose reduce only)."}
+2026-06-12T14:00:59 | ERROR    | trading_bot | API ERROR | http=400 | code=-4164 | msg=Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:00:59 | ERROR    | trading_bot | ORDER FAILED | symbol=ETHUSDT | side=BUY | type=MARKET | error=Order's notional must be no smaller than 20 (unless you choose reduce only). | code=-4164
+2026-06-12T14:00:59 | ERROR    | trading_bot | TWAP slice 3 failed | Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:00:59 | DEBUG    | trading_bot | TWAP sleeping 10s before next slice
+2026-06-12T14:01:09 | INFO     | trading_bot | TWAP slice 4/5 | qty=0.002
+2026-06-12T14:01:09 | INFO     | trading_bot | PLACING ORDER | symbol=ETHUSDT | side=BUY | type=MARKET | qty=0.002
+2026-06-12T14:01:09 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.002', 'timestamp': 1781253069785, 'recvWindow': 10000}
+2026-06-12T14:01:10 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4164,"msg":"Order's notional must be no smaller than 20 (unless you choose reduce only)."}
+2026-06-12T14:01:10 | ERROR    | trading_bot | API ERROR | http=400 | code=-4164 | msg=Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:01:10 | ERROR    | trading_bot | ORDER FAILED | symbol=ETHUSDT | side=BUY | type=MARKET | error=Order's notional must be no smaller than 20 (unless you choose reduce only). | code=-4164
+2026-06-12T14:01:10 | ERROR    | trading_bot | TWAP slice 4 failed | Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:01:10 | DEBUG    | trading_bot | TWAP sleeping 10s before next slice
+2026-06-12T14:01:20 | INFO     | trading_bot | TWAP slice 5/5 | qty=0.002
+2026-06-12T14:01:20 | INFO     | trading_bot | PLACING ORDER | symbol=ETHUSDT | side=BUY | type=MARKET | qty=0.002
+2026-06-12T14:01:20 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.002', 'timestamp': 1781253080020, 'recvWindow': 10000}
+2026-06-12T14:01:20 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4164,"msg":"Order's notional must be no smaller than 20 (unless you choose reduce only)."}
+2026-06-12T14:01:20 | ERROR    | trading_bot | API ERROR | http=400 | code=-4164 | msg=Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:01:20 | ERROR    | trading_bot | ORDER FAILED | symbol=ETHUSDT | side=BUY | type=MARKET | error=Order's notional must be no smaller than 20 (unless you choose reduce only). | code=-4164
+2026-06-12T14:01:20 | ERROR    | trading_bot | TWAP slice 5 failed | Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:01:20 | INFO     | trading_bot | TWAP COMPLETE | filled_qty=0 | 0/5 slices placed (5 failed)
+2026-06-12T14:03:03 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T14:03:03 | INFO     | trading_bot | TWAP START | symbol=ETHUSDT | side=BUY | total_qty=0.05 | slices=5 | slice_qty=0.010 | interval=10s
+2026-06-12T14:03:03 | INFO     | trading_bot | TWAP slice 1/5 | qty=0.010
+2026-06-12T14:03:03 | INFO     | trading_bot | PLACING ORDER | symbol=ETHUSDT | side=BUY | type=MARKET | qty=0.010
+2026-06-12T14:03:03 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.010', 'timestamp': 1781253183463, 'recvWindow': 10000}
+2026-06-12T14:03:04 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4164,"msg":"Order's notional must be no smaller than 20 (unless you choose reduce only)."}
+2026-06-12T14:03:04 | ERROR    | trading_bot | API ERROR | http=400 | code=-4164 | msg=Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:03:04 | ERROR    | trading_bot | ORDER FAILED | symbol=ETHUSDT | side=BUY | type=MARKET | error=Order's notional must be no smaller than 20 (unless you choose reduce only). | code=-4164
+2026-06-12T14:03:04 | ERROR    | trading_bot | TWAP slice 1 failed | Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:03:04 | DEBUG    | trading_bot | TWAP sleeping 10s before next slice
+2026-06-12T14:03:14 | INFO     | trading_bot | TWAP slice 2/5 | qty=0.010
+2026-06-12T14:03:14 | INFO     | trading_bot | PLACING ORDER | symbol=ETHUSDT | side=BUY | type=MARKET | qty=0.010
+2026-06-12T14:03:14 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.010', 'timestamp': 1781253194404, 'recvWindow': 10000}
+2026-06-12T14:03:14 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4164,"msg":"Order's notional must be no smaller than 20 (unless you choose reduce only)."}
+2026-06-12T14:03:14 | ERROR    | trading_bot | API ERROR | http=400 | code=-4164 | msg=Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:03:14 | ERROR    | trading_bot | ORDER FAILED | symbol=ETHUSDT | side=BUY | type=MARKET | error=Order's notional must be no smaller than 20 (unless you choose reduce only). | code=-4164
+2026-06-12T14:03:14 | ERROR    | trading_bot | TWAP slice 2 failed | Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:03:14 | DEBUG    | trading_bot | TWAP sleeping 10s before next slice
+2026-06-12T14:03:24 | INFO     | trading_bot | TWAP slice 3/5 | qty=0.010
+2026-06-12T14:03:24 | INFO     | trading_bot | PLACING ORDER | symbol=ETHUSDT | side=BUY | type=MARKET | qty=0.010
+2026-06-12T14:03:24 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.010', 'timestamp': 1781253204577, 'recvWindow': 10000}
+2026-06-12T14:03:24 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4164,"msg":"Order's notional must be no smaller than 20 (unless you choose reduce only)."}
+2026-06-12T14:03:24 | ERROR    | trading_bot | API ERROR | http=400 | code=-4164 | msg=Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:03:24 | ERROR    | trading_bot | ORDER FAILED | symbol=ETHUSDT | side=BUY | type=MARKET | error=Order's notional must be no smaller than 20 (unless you choose reduce only). | code=-4164
+2026-06-12T14:03:24 | ERROR    | trading_bot | TWAP slice 3 failed | Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:03:24 | DEBUG    | trading_bot | TWAP sleeping 10s before next slice
+2026-06-12T14:03:34 | INFO     | trading_bot | TWAP slice 4/5 | qty=0.010
+2026-06-12T14:03:34 | INFO     | trading_bot | PLACING ORDER | symbol=ETHUSDT | side=BUY | type=MARKET | qty=0.010
+2026-06-12T14:03:34 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.010', 'timestamp': 1781253214753, 'recvWindow': 10000}
+2026-06-12T14:03:35 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4164,"msg":"Order's notional must be no smaller than 20 (unless you choose reduce only)."}
+2026-06-12T14:03:35 | ERROR    | trading_bot | API ERROR | http=400 | code=-4164 | msg=Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:03:35 | ERROR    | trading_bot | ORDER FAILED | symbol=ETHUSDT | side=BUY | type=MARKET | error=Order's notional must be no smaller than 20 (unless you choose reduce only). | code=-4164
+2026-06-12T14:03:35 | ERROR    | trading_bot | TWAP slice 4 failed | Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:03:35 | DEBUG    | trading_bot | TWAP sleeping 10s before next slice
+2026-06-12T14:03:45 | INFO     | trading_bot | TWAP slice 5/5 | qty=0.010
+2026-06-12T14:03:45 | INFO     | trading_bot | PLACING ORDER | symbol=ETHUSDT | side=BUY | type=MARKET | qty=0.010
+2026-06-12T14:03:45 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.010', 'timestamp': 1781253225172, 'recvWindow': 10000}
+2026-06-12T14:03:45 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4164,"msg":"Order's notional must be no smaller than 20 (unless you choose reduce only)."}
+2026-06-12T14:03:45 | ERROR    | trading_bot | API ERROR | http=400 | code=-4164 | msg=Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:03:45 | ERROR    | trading_bot | ORDER FAILED | symbol=ETHUSDT | side=BUY | type=MARKET | error=Order's notional must be no smaller than 20 (unless you choose reduce only). | code=-4164
+2026-06-12T14:03:45 | ERROR    | trading_bot | TWAP slice 5 failed | Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:03:45 | INFO     | trading_bot | TWAP COMPLETE | filled_qty=0 | 0/5 slices placed (5 failed)
+2026-06-12T14:04:34 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T14:04:34 | INFO     | trading_bot | TWAP START | symbol=BTCUSDT | side=BUY | total_qty=0.01 | slices=3 | slice_qty=0.003 | interval=10s
+2026-06-12T14:04:34 | INFO     | trading_bot | TWAP slice 1/3 | qty=0.003
+2026-06-12T14:04:34 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=BUY | type=MARKET | qty=0.003
+2026-06-12T14:04:34 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.003', 'timestamp': 1781253274191, 'recvWindow': 10000}
+2026-06-12T14:04:35 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":15008098971,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"5aJCXyO3T9bXPGvljKxbRm","price":"0.00","origQty":"0.0030","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781253275069}
+2026-06-12T14:04:35 | INFO     | trading_bot | ORDER SUCCESS | orderId=15008098971 | status=NEW | executedQty=0.0000 | avgPrice=—
+2026-06-12T14:04:35 | DEBUG    | trading_bot | TWAP sleeping 10s before next slice
+2026-06-12T14:04:45 | INFO     | trading_bot | TWAP slice 2/3 | qty=0.003
+2026-06-12T14:04:45 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=BUY | type=MARKET | qty=0.003
+2026-06-12T14:04:45 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.003', 'timestamp': 1781253285031, 'recvWindow': 10000}
+2026-06-12T14:04:45 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":15008108175,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"vpQfcC2EZ9uiPMZ85MksKm","price":"0.00","origQty":"0.0030","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781253285769}
+2026-06-12T14:04:45 | INFO     | trading_bot | ORDER SUCCESS | orderId=15008108175 | status=NEW | executedQty=0.0000 | avgPrice=—
+2026-06-12T14:04:45 | DEBUG    | trading_bot | TWAP sleeping 10s before next slice
+2026-06-12T14:04:55 | INFO     | trading_bot | TWAP slice 3/3 | qty=0.004
+2026-06-12T14:04:55 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=BUY | type=MARKET | qty=0.004
+2026-06-12T14:04:55 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.004', 'timestamp': 1781253295728, 'recvWindow': 10000}
+2026-06-12T14:04:55 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":15008115849,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"jQQ0PsPEkpejDmH2OZzh3C","price":"0.00","origQty":"0.0040","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781253295923}
+2026-06-12T14:04:55 | INFO     | trading_bot | ORDER SUCCESS | orderId=15008115849 | status=NEW | executedQty=0.0000 | avgPrice=—
+2026-06-12T14:04:55 | INFO     | trading_bot | TWAP COMPLETE | filled_qty=0.0000 | 3/3 slices placed
+2026-06-12T14:12:35 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T14:12:35 | DEBUG    | trading_bot | REQUEST  GET /fapi/v2/account | params={'timestamp': 1781253755812, 'recvWindow': 10000}
+2026-06-12T14:12:36 | DEBUG    | trading_bot | RESPONSE GET /fapi/v2/account | status=200 | body={"feeTier":0,"canTrade":true,"canDeposit":true,"canWithdraw":true,"feeBurn":true,"tradeGroupId":-1,"updateTime":0,"multiAssetsMargin":false,"totalInitialMargin":"50.18408397","totalMaintMargin":"3.29472671","totalWalletBalance":"4999.65774727","totalUnrealizedProfit":"-0.41692059","totalMarginBalance":"4999.24082668","totalPositionInitialMargin":"41.18408398","totalOpenOrderInitialMargin":"8.99999999","totalCrossWalletBalance":"4999.65774727","totalCrossUnPnl":"-0.41692059","availableBalance":"4
+2026-06-12T14:13:40 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T14:13:40 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=BUY | type=MARKET | qty=0.001
+2026-06-12T14:13:40 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1781253820652, 'recvWindow': 10000}
+2026-06-12T14:13:41 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":15008602327,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"edEKKBKgNJyn0pGw9gc11e","price":"0.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781253821396}
+2026-06-12T14:13:41 | INFO     | trading_bot | ORDER SUCCESS | orderId=15008602327 | status=NEW | executedQty=0.0000 | avgPrice=—
+2026-06-12T14:13:53 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T14:13:53 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=BUY | type=MARKET | qty=0.05
+2026-06-12T14:13:53 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.05', 'timestamp': 1781253833183, 'recvWindow': 10000}
+2026-06-12T14:13:54 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":15008606674,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"StYP22NJuHku5cByqGsGh7","price":"0.00","origQty":"0.0500","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781253834990}
+2026-06-12T14:13:54 | INFO     | trading_bot | ORDER SUCCESS | orderId=15008606674 | status=NEW | executedQty=0.0000 | avgPrice=—
+2026-06-12T14:14:12 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T14:14:12 | DEBUG    | trading_bot | REQUEST  GET /fapi/v2/account | params={'timestamp': 1781253852803, 'recvWindow': 10000}
+2026-06-12T14:14:13 | DEBUG    | trading_bot | RESPONSE GET /fapi/v2/account | status=200 | body={"feeTier":0,"canTrade":true,"canDeposit":true,"canWithdraw":true,"feeBurn":true,"tradeGroupId":-1,"updateTime":0,"multiAssetsMargin":false,"totalInitialMargin":"211.72096000","totalMaintMargin":"16.21767680","totalWalletBalance":"4998.36507271","totalUnrealizedProfit":"-1.36580000","totalMarginBalance":"4996.99927271","totalPositionInitialMargin":"202.72096000","totalOpenOrderInitialMargin":"9.00000000","totalCrossWalletBalance":"4998.36507271","totalCrossUnPnl":"-1.36580000","availableBalance"
+2026-06-12T14:15:56 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T14:15:56 | INFO     | trading_bot | TWAP START | symbol=ETHUSDT | side=BUY | total_qty=0.05 | slices=5 | slice_qty=0.010 | interval=10s
+2026-06-12T14:15:56 | INFO     | trading_bot | TWAP slice 1/5 | qty=0.010
+2026-06-12T14:15:56 | INFO     | trading_bot | PLACING ORDER | symbol=ETHUSDT | side=BUY | type=MARKET | qty=0.010
+2026-06-12T14:15:56 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.010', 'timestamp': 1781253956443, 'recvWindow': 10000}
+2026-06-12T14:15:57 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4164,"msg":"Order's notional must be no smaller than 20 (unless you choose reduce only)."}
+2026-06-12T14:15:57 | ERROR    | trading_bot | API ERROR | http=400 | code=-4164 | msg=Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:15:57 | ERROR    | trading_bot | ORDER FAILED | symbol=ETHUSDT | side=BUY | type=MARKET | error=Order's notional must be no smaller than 20 (unless you choose reduce only). | code=-4164
+2026-06-12T14:15:57 | ERROR    | trading_bot | TWAP slice 1 failed | Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:15:57 | DEBUG    | trading_bot | TWAP sleeping 10s before next slice
+2026-06-12T14:16:07 | INFO     | trading_bot | TWAP slice 2/5 | qty=0.010
+2026-06-12T14:16:07 | INFO     | trading_bot | PLACING ORDER | symbol=ETHUSDT | side=BUY | type=MARKET | qty=0.010
+2026-06-12T14:16:07 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.010', 'timestamp': 1781253967301, 'recvWindow': 10000}
+2026-06-12T14:16:07 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4164,"msg":"Order's notional must be no smaller than 20 (unless you choose reduce only)."}
+2026-06-12T14:16:07 | ERROR    | trading_bot | API ERROR | http=400 | code=-4164 | msg=Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:16:07 | ERROR    | trading_bot | ORDER FAILED | symbol=ETHUSDT | side=BUY | type=MARKET | error=Order's notional must be no smaller than 20 (unless you choose reduce only). | code=-4164
+2026-06-12T14:16:07 | ERROR    | trading_bot | TWAP slice 2 failed | Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:16:07 | DEBUG    | trading_bot | TWAP sleeping 10s before next slice
+2026-06-12T14:16:17 | INFO     | trading_bot | TWAP slice 3/5 | qty=0.010
+2026-06-12T14:16:17 | INFO     | trading_bot | PLACING ORDER | symbol=ETHUSDT | side=BUY | type=MARKET | qty=0.010
+2026-06-12T14:16:17 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.010', 'timestamp': 1781253977469, 'recvWindow': 10000}
+2026-06-12T14:16:17 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4164,"msg":"Order's notional must be no smaller than 20 (unless you choose reduce only)."}
+2026-06-12T14:16:17 | ERROR    | trading_bot | API ERROR | http=400 | code=-4164 | msg=Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:16:17 | ERROR    | trading_bot | ORDER FAILED | symbol=ETHUSDT | side=BUY | type=MARKET | error=Order's notional must be no smaller than 20 (unless you choose reduce only). | code=-4164
+2026-06-12T14:16:17 | ERROR    | trading_bot | TWAP slice 3 failed | Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:16:17 | DEBUG    | trading_bot | TWAP sleeping 10s before next slice
+2026-06-12T14:16:27 | INFO     | trading_bot | TWAP slice 4/5 | qty=0.010
+2026-06-12T14:16:27 | INFO     | trading_bot | PLACING ORDER | symbol=ETHUSDT | side=BUY | type=MARKET | qty=0.010
+2026-06-12T14:16:27 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.010', 'timestamp': 1781253987627, 'recvWindow': 10000}
+2026-06-12T14:16:27 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4164,"msg":"Order's notional must be no smaller than 20 (unless you choose reduce only)."}
+2026-06-12T14:16:27 | ERROR    | trading_bot | API ERROR | http=400 | code=-4164 | msg=Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:16:27 | ERROR    | trading_bot | ORDER FAILED | symbol=ETHUSDT | side=BUY | type=MARKET | error=Order's notional must be no smaller than 20 (unless you choose reduce only). | code=-4164
+2026-06-12T14:16:27 | ERROR    | trading_bot | TWAP slice 4 failed | Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:16:27 | DEBUG    | trading_bot | TWAP sleeping 10s before next slice
+2026-06-12T14:16:37 | INFO     | trading_bot | TWAP slice 5/5 | qty=0.010
+2026-06-12T14:16:37 | INFO     | trading_bot | PLACING ORDER | symbol=ETHUSDT | side=BUY | type=MARKET | qty=0.010
+2026-06-12T14:16:37 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.010', 'timestamp': 1781253997987, 'recvWindow': 10000}
+2026-06-12T14:16:38 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=400 | body={"code":-4164,"msg":"Order's notional must be no smaller than 20 (unless you choose reduce only)."}
+2026-06-12T14:16:38 | ERROR    | trading_bot | API ERROR | http=400 | code=-4164 | msg=Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:16:38 | ERROR    | trading_bot | ORDER FAILED | symbol=ETHUSDT | side=BUY | type=MARKET | error=Order's notional must be no smaller than 20 (unless you choose reduce only). | code=-4164
+2026-06-12T14:16:38 | ERROR    | trading_bot | TWAP slice 5 failed | Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-06-12T14:16:38 | INFO     | trading_bot | TWAP COMPLETE | filled_qty=0 | 0/5 slices placed (5 failed)
+2026-06-12T14:16:49 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T14:16:49 | INFO     | trading_bot | TWAP START | symbol=ETHUSDT | side=BUY | total_qty=1.5 | slices=5 | slice_qty=0.300 | interval=10s
+2026-06-12T14:16:49 | INFO     | trading_bot | TWAP slice 1/5 | qty=0.300
+2026-06-12T14:16:49 | INFO     | trading_bot | PLACING ORDER | symbol=ETHUSDT | side=BUY | type=MARKET | qty=0.300
+2026-06-12T14:16:49 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.300', 'timestamp': 1781254009424, 'recvWindow': 10000}
+2026-06-12T14:16:50 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":9640189313,"symbol":"ETHUSDT","status":"NEW","clientOrderId":"a2wjCJszJPTZwPIMHimc7L","price":"0.00","origQty":"0.300","executedQty":"0.000","cumQty":"0.000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781254010163}
+2026-06-12T14:16:50 | INFO     | trading_bot | ORDER SUCCESS | orderId=9640189313 | status=NEW | executedQty=0.000 | avgPrice=—
+2026-06-12T14:16:51 | DEBUG    | trading_bot | REQUEST  GET /fapi/v1/order | params={'symbol': 'ETHUSDT', 'orderId': 9640189313, 'timestamp': 1781254011103, 'recvWindow': 10000}
+2026-06-12T14:16:51 | DEBUG    | trading_bot | RESPONSE GET /fapi/v1/order | status=200 | body={"orderId":9640189313,"symbol":"ETHUSDT","status":"FILLED","clientOrderId":"a2wjCJszJPTZwPIMHimc7L","price":"0.00","avgPrice":"1669.26187","origQty":"0.300","executedQty":"0.300","cumQuote":"500.77856","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"time":1781254010
+2026-06-12T14:16:51 | DEBUG    | trading_bot | TWAP sleeping 10s before next slice
+2026-06-12T14:17:01 | INFO     | trading_bot | TWAP slice 2/5 | qty=0.300
+2026-06-12T14:17:01 | INFO     | trading_bot | PLACING ORDER | symbol=ETHUSDT | side=BUY | type=MARKET | qty=0.300
+2026-06-12T14:17:01 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.300', 'timestamp': 1781254021286, 'recvWindow': 10000}
+2026-06-12T14:17:01 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":9640195506,"symbol":"ETHUSDT","status":"NEW","clientOrderId":"aFZP0GMYoGv33SeFOiKLsY","price":"0.00","origQty":"0.300","executedQty":"0.000","cumQty":"0.000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781254021499}
+2026-06-12T14:17:01 | INFO     | trading_bot | ORDER SUCCESS | orderId=9640195506 | status=NEW | executedQty=0.000 | avgPrice=—
+2026-06-12T14:17:02 | DEBUG    | trading_bot | REQUEST  GET /fapi/v1/order | params={'symbol': 'ETHUSDT', 'orderId': 9640195506, 'timestamp': 1781254022438, 'recvWindow': 10000}
+2026-06-12T14:17:02 | DEBUG    | trading_bot | RESPONSE GET /fapi/v1/order | status=200 | body={"orderId":9640195506,"symbol":"ETHUSDT","status":"FILLED","clientOrderId":"aFZP0GMYoGv33SeFOiKLsY","price":"0.00","avgPrice":"1670.19000","origQty":"0.300","executedQty":"0.300","cumQuote":"501.05700","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"time":1781254021
+2026-06-12T14:17:02 | DEBUG    | trading_bot | TWAP sleeping 10s before next slice
+2026-06-12T14:17:12 | INFO     | trading_bot | TWAP slice 3/5 | qty=0.300
+2026-06-12T14:17:12 | INFO     | trading_bot | PLACING ORDER | symbol=ETHUSDT | side=BUY | type=MARKET | qty=0.300
+2026-06-12T14:17:12 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.300', 'timestamp': 1781254032598, 'recvWindow': 10000}
+2026-06-12T14:17:12 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":9640201603,"symbol":"ETHUSDT","status":"NEW","clientOrderId":"RDpd2xiTMhKij1kaa0Fdtp","price":"0.00","origQty":"0.300","executedQty":"0.000","cumQty":"0.000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781254032811}
+2026-06-12T14:17:12 | INFO     | trading_bot | ORDER SUCCESS | orderId=9640201603 | status=NEW | executedQty=0.000 | avgPrice=—
+2026-06-12T14:17:13 | DEBUG    | trading_bot | REQUEST  GET /fapi/v1/order | params={'symbol': 'ETHUSDT', 'orderId': 9640201603, 'timestamp': 1781254033752, 'recvWindow': 10000}
+2026-06-12T14:17:13 | DEBUG    | trading_bot | RESPONSE GET /fapi/v1/order | status=200 | body={"orderId":9640201603,"symbol":"ETHUSDT","status":"FILLED","clientOrderId":"RDpd2xiTMhKij1kaa0Fdtp","price":"0.00","avgPrice":"1670.44000","origQty":"0.300","executedQty":"0.300","cumQuote":"501.13200","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"time":1781254032
+2026-06-12T14:17:13 | DEBUG    | trading_bot | TWAP sleeping 10s before next slice
+2026-06-12T14:17:23 | INFO     | trading_bot | TWAP slice 4/5 | qty=0.300
+2026-06-12T14:17:23 | INFO     | trading_bot | PLACING ORDER | symbol=ETHUSDT | side=BUY | type=MARKET | qty=0.300
+2026-06-12T14:17:23 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.300', 'timestamp': 1781254043904, 'recvWindow': 10000}
+2026-06-12T14:17:24 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":9640208971,"symbol":"ETHUSDT","status":"NEW","clientOrderId":"NimzC05id7cVIFQQ2m5drI","price":"0.00","origQty":"0.300","executedQty":"0.000","cumQty":"0.000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781254044117}
+2026-06-12T14:17:24 | INFO     | trading_bot | ORDER SUCCESS | orderId=9640208971 | status=NEW | executedQty=0.000 | avgPrice=—
+2026-06-12T14:17:25 | DEBUG    | trading_bot | REQUEST  GET /fapi/v1/order | params={'symbol': 'ETHUSDT', 'orderId': 9640208971, 'timestamp': 1781254045056, 'recvWindow': 10000}
+2026-06-12T14:17:25 | DEBUG    | trading_bot | RESPONSE GET /fapi/v1/order | status=200 | body={"orderId":9640208971,"symbol":"ETHUSDT","status":"FILLED","clientOrderId":"NimzC05id7cVIFQQ2m5drI","price":"0.00","avgPrice":"1670.66000","origQty":"0.300","executedQty":"0.300","cumQuote":"501.19800","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"time":1781254044
+2026-06-12T14:17:25 | DEBUG    | trading_bot | TWAP sleeping 10s before next slice
+2026-06-12T14:17:35 | INFO     | trading_bot | TWAP slice 5/5 | qty=0.300
+2026-06-12T14:17:35 | INFO     | trading_bot | PLACING ORDER | symbol=ETHUSDT | side=BUY | type=MARKET | qty=0.300
+2026-06-12T14:17:35 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.300', 'timestamp': 1781254055217, 'recvWindow': 10000}
+2026-06-12T14:17:35 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":9640214558,"symbol":"ETHUSDT","status":"NEW","clientOrderId":"eWM0rLgaXGsniYDhQUpIyL","price":"0.00","origQty":"0.300","executedQty":"0.000","cumQty":"0.000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781254055466}
+2026-06-12T14:17:35 | INFO     | trading_bot | ORDER SUCCESS | orderId=9640214558 | status=NEW | executedQty=0.000 | avgPrice=—
+2026-06-12T14:17:36 | DEBUG    | trading_bot | REQUEST  GET /fapi/v1/order | params={'symbol': 'ETHUSDT', 'orderId': 9640214558, 'timestamp': 1781254056450, 'recvWindow': 10000}
+2026-06-12T14:17:36 | DEBUG    | trading_bot | RESPONSE GET /fapi/v1/order | status=200 | body={"orderId":9640214558,"symbol":"ETHUSDT","status":"FILLED","clientOrderId":"eWM0rLgaXGsniYDhQUpIyL","price":"0.00","avgPrice":"1671.41000","origQty":"0.300","executedQty":"0.300","cumQuote":"501.42300","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"time":1781254055
+2026-06-12T14:17:36 | INFO     | trading_bot | TWAP COMPLETE | filled_qty=1.500 | 5/5 slices placed
+2026-06-12T14:17:51 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T14:17:51 | DEBUG    | trading_bot | REQUEST  GET /fapi/v2/account | params={'timestamp': 1781254071295, 'recvWindow': 10000}
+2026-06-12T14:17:52 | DEBUG    | trading_bot | RESPONSE GET /fapi/v2/account | status=200 | body={"feeTier":0,"canTrade":true,"canDeposit":true,"canWithdraw":true,"feeBurn":true,"tradeGroupId":-1,"updateTime":0,"multiAssetsMargin":false,"totalInitialMargin":"337.28591962","totalMaintMargin":"28.76990847","totalWalletBalance":"4997.36283729","totalUnrealizedProfit":"4.34483222","totalMarginBalance":"5001.70766951","totalPositionInitialMargin":"328.28591962","totalOpenOrderInitialMargin":"9.00000000","totalCrossWalletBalance":"4997.36283729","totalCrossUnPnl":"4.34483222","availableBalance":"
+2026-06-12T16:31:03 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://demo-fapi.binance.com
+2026-06-12T16:31:03 | DEBUG    | trading_bot | REQUEST  GET /fapi/v2/account | params={'timestamp': 1781262063792, 'recvWindow': 10000}
+2026-06-12T16:31:04 | DEBUG    | trading_bot | RESPONSE GET /fapi/v2/account | status=200 | body={"feeTier":0,"canTrade":true,"canDeposit":true,"canWithdraw":true,"feeBurn":true,"tradeGroupId":-1,"updateTime":0,"multiAssetsMargin":false,"totalInitialMargin":"338.24623017","totalMaintMargin":"28.85063811","totalWalletBalance":"4997.36283729","totalUnrealizedProfit":"23.55104321","totalMarginBalance":"5020.91388050","totalPositionInitialMargin":"329.24623017","totalOpenOrderInitialMargin":"9.00000000","totalCrossWalletBalance":"4997.36283729","totalCrossUnPnl":"23.55104321","availableBalance"
+2026-06-12T16:57:37 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://testnet.binancefuture.com
+2026-06-12T16:57:37 | DEBUG    | trading_bot | REQUEST  GET /fapi/v1/ping | params={}
+2026-06-12T16:57:38 | DEBUG    | trading_bot | RESPONSE GET /fapi/v1/ping | status=200 | body={}
+2026-06-12T17:06:24 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://testnet.binancefuture.com
+2026-06-12T17:06:24 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=BUY | type=MARKET | qty=0.001
+2026-06-12T17:06:24 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'recvWindow': 10000}
+2026-06-12T17:06:25 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":15017725467,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"rBVG3vQabwqJjNNV3DBtqd","price":"0.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781264185763}
+2026-06-12T17:06:25 | INFO     | trading_bot | ORDER SUCCESS | orderId=15017725467 | status=NEW | executedQty=0.0000 | avgPrice=—
+2026-06-12T17:06:35 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://testnet.binancefuture.com
+2026-06-12T17:06:35 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=LIMIT | qty=0.001
+2026-06-12T17:06:35 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '95000.0', 'timeInForce': 'GTC', 'recvWindow': 10000}
+2026-06-12T17:06:36 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":15017739234,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"XyGlUYim0twyiGdZNWBbYR","price":"95000.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781264196460}
+2026-06-12T17:06:36 | INFO     | trading_bot | ORDER SUCCESS | orderId=15017739234 | status=NEW | executedQty=0.0000 | avgPrice=—
+2026-06-12T17:07:13 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://testnet.binancefuture.com
+2026-06-12T17:07:13 | INFO     | trading_bot | TWAP START | symbol=ETHUSDT | side=BUY | total_qty=1.0 | slices=2 | slice_qty=0.500 | interval=10s
+2026-06-12T17:07:13 | INFO     | trading_bot | TWAP slice 1/2 | qty=0.500
+2026-06-12T17:07:13 | INFO     | trading_bot | PLACING ORDER | symbol=ETHUSDT | side=BUY | type=MARKET | qty=0.500
+2026-06-12T17:07:13 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.500', 'recvWindow': 10000}
+2026-06-12T17:07:14 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":9646017536,"symbol":"ETHUSDT","status":"NEW","clientOrderId":"OrYbbeBignABjetqlyRAQ5","price":"0.00","origQty":"0.500","executedQty":"0.000","cumQty":"0.000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781264234420}
+2026-06-12T17:07:14 | INFO     | trading_bot | ORDER SUCCESS | orderId=9646017536 | status=NEW | executedQty=0.000 | avgPrice=—
+2026-06-12T17:07:15 | DEBUG    | trading_bot | REQUEST  GET /fapi/v1/order | params={'symbol': 'ETHUSDT', 'orderId': 9646017536, 'recvWindow': 10000}
+2026-06-12T17:07:15 | DEBUG    | trading_bot | RESPONSE GET /fapi/v1/order | status=200 | body={"orderId":9646017536,"symbol":"ETHUSDT","status":"FILLED","clientOrderId":"OrYbbeBignABjetqlyRAQ5","price":"0.00","avgPrice":"1671.52000","origQty":"0.500","executedQty":"0.500","cumQuote":"835.76000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"time":1781264234
+2026-06-12T17:07:15 | DEBUG    | trading_bot | TWAP sleeping 10s before next slice
+2026-06-12T17:07:25 | INFO     | trading_bot | TWAP slice 2/2 | qty=0.500
+2026-06-12T17:07:25 | INFO     | trading_bot | PLACING ORDER | symbol=ETHUSDT | side=BUY | type=MARKET | qty=0.500
+2026-06-12T17:07:25 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.500', 'recvWindow': 10000}
+2026-06-12T17:07:26 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":9646022426,"symbol":"ETHUSDT","status":"NEW","clientOrderId":"W57NnDCfg3NC5tCBHI3H42","price":"0.00","origQty":"0.500","executedQty":"0.000","cumQty":"0.000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781264246136}
+2026-06-12T17:07:26 | INFO     | trading_bot | ORDER SUCCESS | orderId=9646022426 | status=NEW | executedQty=0.000 | avgPrice=—
+2026-06-12T17:07:27 | DEBUG    | trading_bot | REQUEST  GET /fapi/v1/order | params={'symbol': 'ETHUSDT', 'orderId': 9646022426, 'recvWindow': 10000}
+2026-06-12T17:07:27 | DEBUG    | trading_bot | RESPONSE GET /fapi/v1/order | status=200 | body={"orderId":9646022426,"symbol":"ETHUSDT","status":"FILLED","clientOrderId":"W57NnDCfg3NC5tCBHI3H42","price":"0.00","avgPrice":"1671.69000","origQty":"0.500","executedQty":"0.500","cumQuote":"835.84500","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"time":1781264246
+2026-06-12T17:07:27 | INFO     | trading_bot | TWAP COMPLETE | filled_qty=1.000 | 2/2 slices placed
+2026-06-12T17:07:35 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://testnet.binancefuture.com
+2026-06-12T17:07:35 | DEBUG    | trading_bot | REQUEST  GET /fapi/v1/ticker/price | params={'symbol': 'BTCUSDT'}
+2026-06-12T17:07:36 | DEBUG    | trading_bot | RESPONSE GET /fapi/v1/ticker/price | status=200 | body={"price":"63712.00","symbol":"BTCUSDT","time":1781264251375}
+2026-06-12T17:07:36 | INFO     | trading_bot | GRID fetched current price | symbol=BTCUSDT | price=63712.00
+2026-06-12T17:07:36 | INFO     | trading_bot | GRID START | symbol=BTCUSDT | range=[65000.0, 70000.0] | levels=6 | step=1000.0 | qty_per_level=0.001 | mid=63712.00
+2026-06-12T17:07:36 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=LIMIT | qty=0.001
+2026-06-12T17:07:36 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '65000.00', 'timeInForce': 'GTC', 'recvWindow': 10000}
+2026-06-12T17:07:36 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":15017782578,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"sX7FhardBhfRd3XbRciv7Z","price":"65000.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781264256609}
+2026-06-12T17:07:36 | INFO     | trading_bot | ORDER SUCCESS | orderId=15017782578 | status=NEW | executedQty=0.0000 | avgPrice=—
+2026-06-12T17:07:36 | INFO     | trading_bot | GRID SELL placed | price=65000.00 | orderId=15017782578
+2026-06-12T17:07:36 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=LIMIT | qty=0.001
+2026-06-12T17:07:36 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '66000.00', 'timeInForce': 'GTC', 'recvWindow': 10000}
+2026-06-12T17:07:36 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":15017782753,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"109jzo3rKoA4EUhRlZDEwW","price":"66000.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781264256782}
+2026-06-12T17:07:36 | INFO     | trading_bot | ORDER SUCCESS | orderId=15017782753 | status=NEW | executedQty=0.0000 | avgPrice=—
+2026-06-12T17:07:36 | INFO     | trading_bot | GRID SELL placed | price=66000.00 | orderId=15017782753
+2026-06-12T17:07:36 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=LIMIT | qty=0.001
+2026-06-12T17:07:36 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '67000.00', 'timeInForce': 'GTC', 'recvWindow': 10000}
+2026-06-12T17:07:36 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":15017782918,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"XSDC8U3Wdm2PHgX9JBxQmx","price":"67000.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781264256956}
+2026-06-12T17:07:36 | INFO     | trading_bot | ORDER SUCCESS | orderId=15017782918 | status=NEW | executedQty=0.0000 | avgPrice=—
+2026-06-12T17:07:36 | INFO     | trading_bot | GRID SELL placed | price=67000.00 | orderId=15017782918
+2026-06-12T17:07:36 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=LIMIT | qty=0.001
+2026-06-12T17:07:36 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '68000.00', 'timeInForce': 'GTC', 'recvWindow': 10000}
+2026-06-12T17:07:37 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":15017783269,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"xQIgabMsz9rkM9SefSHbKU","price":"68000.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781264257237}
+2026-06-12T17:07:37 | INFO     | trading_bot | ORDER SUCCESS | orderId=15017783269 | status=NEW | executedQty=0.0000 | avgPrice=—
+2026-06-12T17:07:37 | INFO     | trading_bot | GRID SELL placed | price=68000.00 | orderId=15017783269
+2026-06-12T17:07:37 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=LIMIT | qty=0.001
+2026-06-12T17:07:37 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '69000.00', 'timeInForce': 'GTC', 'recvWindow': 10000}
+2026-06-12T17:07:37 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":15017783427,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"yk8dlDdm7lvmBilVOtgui4","price":"69000.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781264257405}
+2026-06-12T17:07:37 | INFO     | trading_bot | ORDER SUCCESS | orderId=15017783427 | status=NEW | executedQty=0.0000 | avgPrice=—
+2026-06-12T17:07:37 | INFO     | trading_bot | GRID SELL placed | price=69000.00 | orderId=15017783427
+2026-06-12T17:07:37 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=LIMIT | qty=0.001
+2026-06-12T17:07:37 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '70000.00', 'timeInForce': 'GTC', 'recvWindow': 10000}
+2026-06-12T17:07:37 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":15017783566,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"IZeDMdc9oIrsOQjCnw1z32","price":"70000.00","origQty":"0.0010","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781264257579}
+2026-06-12T17:07:37 | INFO     | trading_bot | ORDER SUCCESS | orderId=15017783566 | status=NEW | executedQty=0.0000 | avgPrice=—
+2026-06-12T17:07:37 | INFO     | trading_bot | GRID SELL placed | price=70000.00 | orderId=15017783566
+2026-06-12T17:07:37 | INFO     | trading_bot | GRID COMPLETE | buy_orders=0 | sell_orders=6 | total=6
+2026-06-12T17:08:05 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://testnet.binancefuture.com
+2026-06-12T17:08:05 | DEBUG    | trading_bot | REQUEST  GET /fapi/v2/account | params={'recvWindow': 10000}
+2026-06-12T17:08:06 | DEBUG    | trading_bot | RESPONSE GET /fapi/v2/account | status=200 | body={"feeTier":0,"canTrade":true,"canDeposit":true,"canWithdraw":true,"feeBurn":true,"tradeGroupId":-1,"updateTime":0,"multiAssetsMargin":false,"totalInitialMargin":"424.90132500","totalMaintMargin":"37.45105600","totalWalletBalance":"4996.66869449","totalUnrealizedProfit":"21.29594000","totalMarginBalance":"5017.96463449","totalPositionInitialMargin":"415.90132500","totalOpenOrderInitialMargin":"9.00000000","totalCrossWalletBalance":"4996.66869449","totalCrossUnPnl":"21.29594000","availableBalance"
+2026-06-12T17:10:24 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://testnet.binancefuture.com
+2026-06-12T17:10:24 | DEBUG    | trading_bot | REQUEST  GET /fapi/v2/account | params={'recvWindow': 10000}
+2026-06-12T17:10:25 | DEBUG    | trading_bot | RESPONSE GET /fapi/v2/account | status=200 | body={"feeTier":0,"canTrade":true,"canDeposit":true,"canWithdraw":true,"feeBurn":true,"tradeGroupId":-1,"updateTime":0,"multiAssetsMargin":false,"totalInitialMargin":"425.06567500","totalMaintMargin":"37.46717900","totalWalletBalance":"4996.66869449","totalUnrealizedProfit":"24.58294000","totalMarginBalance":"5021.25163449","totalPositionInitialMargin":"416.06567500","totalOpenOrderInitialMargin":"9.00000000","totalCrossWalletBalance":"4996.66869449","totalCrossUnPnl":"24.58294000","availableBalance"
+2026-06-12T17:10:25 | INFO     | trading_bot | PLACING ORDER | symbol=BTCUSDT | side=SELL | type=MARKET | qty=0.03
+2026-06-12T17:10:25 | DEBUG    | trading_bot | REQUEST  POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'MARKET', 'quantity': '0.03', 'recvWindow': 10000}
+2026-06-12T17:10:25 | DEBUG    | trading_bot | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":15017933892,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"xHAH1Vg45MsljwthXQLjyT","price":"0.00","origQty":"0.0300","executedQty":"0.0000","cumQty":"0.0000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1781264425584}
+2026-06-12T17:10:25 | INFO     | trading_bot | ORDER SUCCESS | orderId=15017933892 | status=NEW | executedQty=0.0000 | avgPrice=—
+2026-06-12T17:11:08 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://testnet.binancefuture.com
+2026-06-12T17:11:08 | DEBUG    | trading_bot | REQUEST  GET /fapi/v1/openOrders | params={'symbol': 'BTCUSDT', 'recvWindow': 10000}
+2026-06-12T17:11:08 | DEBUG    | trading_bot | RESPONSE GET /fapi/v1/openOrders | status=200 | body=[{"orderId":15017739234,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"XyGlUYim0twyiGdZNWBbYR","price":"95000","avgPrice":"0","origQty":"0.0010","executedQty":"0","cumQuote":"0.000000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"time":1781264196460,"strategyType
+2026-06-12T17:11:45 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://testnet.binancefuture.com
+2026-06-12T17:11:45 | DEBUG    | trading_bot | REQUEST  DELETE /fapi/v1/allOpenOrders | params={'symbol': 'BTCUSDT', 'recvWindow': 10000}
+2026-06-12T17:11:46 | DEBUG    | trading_bot | RESPONSE DELETE /fapi/v1/allOpenOrders | status=200 | body={"code":200,"msg":"The operation of cancel all open order is done."}
+2026-06-12T17:11:46 | INFO     | trading_bot | cancel-all | symbol=BTCUSDT | response={'code': 200, 'msg': 'The operation of cancel all open order is done.'}
+2026-06-12T17:11:59 | DEBUG    | trading_bot | BinanceFuturesClient initialised | base_url=https://testnet.binancefuture.com
+2026-06-12T17:11:59 | DEBUG    | trading_bot | REQUEST  GET /fapi/v1/openOrders | params={'symbol': 'BTCUSDT', 'recvWindow': 10000}
+2026-06-12T17:12:00 | DEBUG    | trading_bot | RESPONSE GET /fapi/v1/openOrders | status=200 | body=[]
